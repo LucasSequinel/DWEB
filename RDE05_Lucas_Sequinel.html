@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hyperlinks</title>
+</head>
+<body>
+    <p>
+         Hyperlinks são referências dentro de um documento em hipertexto para outras partes do mesmo documento, outros<br> documentos, arquivos ou endereços eletrônicos.Sua marcação acontece utilizando a tag "a" e a propriedade href <br>que faz referencia ao conteúdo desejado.</br>Os links podem ser:</p>
+    <p>
+        <dl >
+            <dt>Remotos:</dt>
+            <dd>
+                Links que referenciam sites ou páginas na web. No href utilizamos "URL"</br> a href="link desejado" target="_blank"(abrir em outra aba)</br>a href="link desejado" target="_self"(abrir na mesma aba)</br><strong> hreflang=""            </strong>define a lingua do link que será aberto</br> <strong>rel="external"</strong> determina que o link é externo
+             </dd>
+
+            <dt>Internos:</dt>
+            <dd>
+                Links que apontam lugares dentro da mesma página possibilitando o acesso de diferentes parágrafos ou sessões.<br>
+                <strong>a href="#referencia"</strong> fará o link em uma palavra do texto para levar a outra parte do documento.<br>
+                <strong>a name="referencia"</strong> determina onde o link levará o usuário 
+            </dd>
+            <dt>Locais:</dt>
+            <dd>
+                São links que apontam para outras páginas dentro de um mesmo site:<br>
+                <strong>a href="arquivo.html"</strong>
+
+            </dd>
+
+            <dt>Em imagens:</dt>
+            <dd>
+                É possível realizar hiperlinks em imagens envolvendo a tag de imagem com a de hiperlink:<br>
+                <strong>a href="referencia" img src="imagem.jpg" /a</strong> 
+            </dd>
+
+            <dt>Download de arquivos:</dt>
+            <dd>
+                São links que apontam arquivos e possibilitam seu Download<br>
+                <strong>a href="arquivo.extensão" download="arquivo.extensão" type="tipo"</strong>
+            </dd>
+            <dt>Endereço elettrônico:</dt>
+            <dd>
+                São links que apontam para um endereço eletrônico<br>
+                a href="mailto:email@email.com" 
+            </dd>
+        </dl>
+    </p>
+</body>
+</html>

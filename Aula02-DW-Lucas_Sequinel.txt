@@ -1,0 +1,22 @@
+1- Google, Adobe Photoshop, Linux,Nokia 1011, DVD.
+
+2- Http é o meio em que os computadores compartilham dados
+  com os servidores da internet, formando uma espécie de comunicação.
+   Porém as interações estão vulneráveis a interceptações de terceiros
+  e, por isso, houve o surgimento do Https que é basicamente a mesma
+  coisa porém mais seguro.
+
+3- DNS é o registro que contém os nomes dos domínios e seus IPs, ele é utilizado
+ para que você possa encontrar o que está a procura na internet, sua necessidade
+ está em sua importancia na ligação das pessoas com os sites.
+
+4- Sem um conjunto de protocolos de informação seria impossível formar
+ uma rede estável entre os computadores, o fato de não ter algo padronizado
+ tornaria a rede instável por conflitos entre protocolos.
+
+5- HTML é uma linguagem de programação focada na marcação de texto, portanto
+ repleto de tags e marcações, priorizando a hierarquia das informações.
+
+6- Tinha o objetivo de possibilitar e facilitar o acesso para muitos documentos
+ e torná-lo o mais universal possível.
+ 
