@@ -1,0 +1,62 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #4413AD, #7032FA);
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 45%;
+    padding-top: 50px;
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    float: right;
+    display: block;
+    color: rgb(173, 173, 173);
+    text-decoration:none;
+    text-align: right;
+    padding: 10px 10px;
+}
+.navegacao a:hover{
+    color: #e32936;
+    
+}
+.Conteudo{
+    float: left;
+    padding:14px;
+}
+.Conteudo.lateral{
+    width:20%;
+    margin:10px 2px 25px 2px;
+    background-color: gainsboro;
+}
+.Conteudo.central{
+    width: 50%;
+    height: 212px;
+    margin:10px 2px 2px 2px ;
+    background-color: gainsboro;
+
+}
+.Principal h2{
+    color:#e32936;
+}
+.rodape{
+    color: darkgray;
+    font-size: 10px;
+    text-align: center;
+    padding: 60px;
+}
+@media screen and (max-width 800px){
+    .principal, .Conteudo.central, .Conteudo.lateral{
+        width: 100%;
+        padding:0;
+    }
+}
